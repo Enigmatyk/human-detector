@@ -1,5 +1,11 @@
 # human-detector
 
+# Install requirements
+```
+pip3 install -r requirements.txt
+```
+
+# human-detector cmd help
 ```
 python3 main.py -h
 usage: main.py [-h] [-v VIDEO] [-i IMAGE] [-c CAMERA] [-o OUTPUT]
@@ -15,4 +21,9 @@ options:
   -o OUTPUT, --output OUTPUT
                         path to optional output video file
 
+```
+
+# human detector via webcam
+```
+python3 main.py -c true -o ./video-output
 ```
